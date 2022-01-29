@@ -2,13 +2,22 @@ body {
     background: rgba(0, 0, 0, 0.767);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin: 0;
+    padding: 0;
 }
-h1 {
-    color: rgb(1, 177, 247);
+
+header {
+    background: black;
+    padding: 20px;
 }
-button {
-    background: gray;
-    color: white;
-    border: none;
-    border-radius: 50px;
+
+section {
+    background: white;
+    color: gray;
+    padding: 20px;
+}
+
+footer {
+    background: black;
+    padding: 10px 20px;
 }
